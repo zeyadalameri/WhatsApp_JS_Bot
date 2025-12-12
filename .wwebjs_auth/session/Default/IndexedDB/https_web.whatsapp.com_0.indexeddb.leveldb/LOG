@@ -1,0 +1,15 @@
+2025/12/12-04:02:21.137 3d0 Reusing MANIFEST C:\Users\ziada\Desktop\WhatsApp_JS_Bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/12-04:02:21.138 3d0 Recovering log #70
+2025/12/12-04:02:21.266 3d0 Reusing old log C:\Users\ziada\Desktop\WhatsApp_JS_Bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000070.log 
+2025/12/12-04:02:21.266 3d0 Delete type=2 #68
+2025/12/12-04:02:21.266 3d0 Delete type=2 #69
+2025/12/12-04:02:21.266 3d0 Delete type=2 #71
+2025/12/12-04:02:22.635 520 Level-0 table #76: started
+2025/12/12-04:02:22.649 520 Level-0 table #76: 979174 bytes OK
+2025/12/12-04:02:22.651 520 Delete type=0 #70
+2025/12/12-04:02:22.652 520 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/12-04:02:22.672 520 Compacting 1@1 + 2@2 files
+2025/12/12-04:02:22.740 520 Generated table #77@1: 45227 keys, 2204785 bytes
+2025/12/12-04:02:22.774 520 Generated table #78@1: 27898 keys, 1237312 bytes
+2025/12/12-04:02:22.774 520 Compacted 1@1 + 2@2 files => 3442097 bytes
+2025/12/12-04:02:22.776 520 compacted to: files[ 0 0 2 0 0 0 0 ]
