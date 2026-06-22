@@ -1,0 +1,4 @@
+# Keep generated/session data out of GitHub language statistics
+.wwebjs_auth/** linguist-vendored
+messages_js.json linguist-generated
+*.json linguist-generated
