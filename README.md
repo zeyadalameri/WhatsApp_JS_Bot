@@ -69,5 +69,4 @@ This project is intended for learning and controlled automation experiments. It 
 ## Author
 
 **Zeyad Alameri**  
-Information Technology Graduate | Full-Stack Developer  
 GitHub: [@zeyadalameri](https://github.com/zeyadalameri)
