@@ -1,14 +1,20 @@
 {
-  "name": "whatsapp_js_bot",
+  "name": "whatsapp-js-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A local WhatsApp Web automation prototype built with whatsapp-web.js.",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js",
+    "test": "node --check bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "whatsapp",
+    "automation",
+    "nodejs",
+    "whatsapp-web-js"
+  ],
+  "author": "Zeyad Alameri",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "puppeteer": "^24.33.0",
