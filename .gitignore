@@ -1,5 +1,14 @@
-﻿node_modules/
+# Dependencies
+node_modules/
+
+# Local WhatsApp data
+messages_js.json
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Environment and editors
 .env
+*.log
 .DS_Store
 .vscode/
-package-lock.json
+.idea/
