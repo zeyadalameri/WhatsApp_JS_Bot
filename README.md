@@ -1,72 +1,40 @@
-# WhatsApp JavaScript Bot
+# WhatsApp Web Monitor - Node.js Prototype
 
-A local WhatsApp Web automation bot built with Node.js and `whatsapp-web.js`. The bot connects to WhatsApp Web, listens for incoming messages from private chats and groups, extracts useful message metadata, and stores structured logs in JSON format.
+A learning prototype built with `whatsapp-web.js` that connects to WhatsApp Web, observes incoming messages, and saves structured records locally.
 
-## Features
+## What It Does
 
-- Connects to WhatsApp Web through QR authentication
-- Saves the local session for reuse
-- Listens for incoming private and group messages
-- Extracts message text, sender ID, chat information, and timestamp
-- Attempts to identify phone numbers from WhatsApp JIDs when available
-- Stores received messages in a JSON file
-- Useful as a prototype for automation, monitoring, and message-processing workflows
+- Displays a QR code for first-time authentication
+- Reuses a local `LocalAuth` session
+- Listens for incoming message events
+- Records message text and available sender metadata in JSON
+- Runs a lightweight syntax check through the package test script
 
 ## Tech Stack
 
-- **Runtime:** Node.js
-- **Automation:** whatsapp-web.js
-- **Browser engine:** Puppeteer/Chromium workflow through whatsapp-web.js
-- **Data storage:** JSON
-
-## Project Structure
-
-```text
-.
-├── bot.js              # Main bot logic
-├── package.json        # Node.js dependencies and scripts
-├── messages_js.json    # Stored message logs
-└── .gitignore
-```
-
-## My Role
-
-- Built the Node.js automation workflow
-- Implemented WhatsApp Web session handling
-- Parsed incoming message metadata
-- Stored structured logs in JSON format
+- Node.js
+- whatsapp-web.js
+- Puppeteer
+- qrcode-terminal
+- JSON
 
 ## Getting Started
 
 ```bash
 npm install
-node bot.js
+npm start
 ```
 
-After starting the bot, scan the QR code with WhatsApp to create a session.
+Run `npm test` for the included JavaScript syntax check. Authentication state and captured messages are local-only and excluded by `.gitignore`.
 
-## Academic / Technical Relevance
+## My Role
 
-This project demonstrates:
+I implemented the WhatsApp client lifecycle, QR authentication, message-event handling, metadata extraction, and local persistence as an automation exercise.
 
-- Event-driven programming
-- Local automation workflows
-- JSON data handling
-- Web-based messaging automation
-- Practical backend scripting with Node.js
+## Project Status and Limitations
 
-## What I Learned
+This is a learning/automation prototype, not a production messaging system. It does not send automated replies or use the official WhatsApp Business Platform. Browser automation and private client libraries may break when WhatsApp Web changes, and message data requires careful consent and privacy handling.
 
-- Working with event-driven JavaScript applications
-- Using third-party libraries for web automation
-- Structuring message data for later processing
-- Handling local sessions in automation projects
+## License
 
-## Important Note
-
-This project is intended for learning and controlled automation experiments. It should be used responsibly and in compliance with WhatsApp's terms and applicable privacy rules.
-
-## Author
-
-**Zeyad Alameri**  
-GitHub: [@zeyadalameri](https://github.com/zeyadalameri)
+No open-source license has been declared.
